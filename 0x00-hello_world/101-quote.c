@@ -6,8 +6,15 @@
  */
 int main(void)
 {
-	char *quote = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+	char *quote = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	int i;
+	int charcount;
 
-	fwrite(quote, sizeof(quote[0]), sizeof(quote) / sizeof(quote[0]), stderr);
-	return (0);
+	charcount = 0;
+
+	for (i = 0; quote[i]; i++)
+		charcount++;
+
+	fwrite(quote, sizeof(char), charcount, stderr);
+	return (1);
 }
