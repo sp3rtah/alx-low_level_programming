@@ -71,6 +71,7 @@ void permutate(printer *printed, int *total)
 			++(*total);
 		}
 }
+
 /**
  * main - Entry point
  * Return: 0 on success
