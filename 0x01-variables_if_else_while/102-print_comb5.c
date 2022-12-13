@@ -18,7 +18,7 @@ int main(void)
 			for (k = 0; k <= 9; k++)
 				for (l = 0; l <= 9; l++)
 				{
-					if (i > k || j >= l)
+					if (i + j >= k + l)
 						continue;
 					putchar('0' + i);
 					putchar('0' + j);
@@ -27,7 +27,7 @@ int main(void)
 					putchar('0' + l);
 
 					end++;
-					if (end != 2475)
+					if (end != 4665)
 					{
 						putchar(',');
 						putchar(' ');
