@@ -8,31 +8,40 @@
 int main(void)
 {
 	int i, j;
-	int k, l;
 	int end;
+	int one, two, three, four;
 
 	end = 0;
+	for (i = 0; i < 100; i++)
+	{
+		one = 0;
+		two = i % 10;
+		if (i > two)
+			one = i / 10;
 
-	for (i = 0; i <= 9; i++)
-		for (j = 0; j <= 9; j++)
-			for (k = 0; k <= 9; k++)
-				for (l = 0; l <= 9; l++)
+		for (j = 0; j < 100; j++)
+		{
+			three = 0;
+			four = j % 10;
+			if (j > four)
+				three = i / 10;
+			if ((one * 10 + two) < (three * 10 + four))
+			{
+				putchar('0' + one);
+				putchar('0' + two);
+				putchar(' ');
+				putchar('0' + three);
+				putchar('0' + four);
+
+				++end;
+				if (end != 4095)
 				{
-					if (i > k || j >= l)
-						continue;
-					putchar('0' + i);
-					putchar('0' + j);
+					putchar(',');
 					putchar(' ');
-					putchar('0' + k);
-					putchar('0' + l);
-
-					end++;
-					if (end != 2475)
-					{
-						putchar(',');
-						putchar(' ');
-					}
 				}
-	putchar('\n');
+			}
+		}
+	}
+	printf("\nend: %d\n", end);
 	return (0);
 }
