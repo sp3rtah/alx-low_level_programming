@@ -11,3 +11,4 @@ void print_alphabet_x10(void);
 int add(int a, int b);
 void print_alphabet(void);
 void print_to_98(int);
+void print_times_table(int n);
