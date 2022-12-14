@@ -1,6 +1,6 @@
-SRC:= main.c
+SRC:= 104-fibonacci.c
 CC:= gcc
-CFLAGS:= -Wall -Werror -Wextra -pedantic -std=gnu89 _putchar.c 100-times_table.c
+CFLAGS:= -Wall -Werror -Wextra -pedantic -std=gnu89 _putchar.c
 
 run: compile
 	./a.out
