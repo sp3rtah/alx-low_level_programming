@@ -1,6 +1,6 @@
-SRC:= 9-fizz_buzz.c
+SRC:= main.c
 CC:= gcc
-CFLAGS:= -Wall -Werror -Wextra -pedantic -std=gnu89
+CFLAGS:= -Wall -Werror -Wextra -pedantic -std=gnu89 _putchar.c 10-print_triangle.c
 
 run: compile
 	./a.out
