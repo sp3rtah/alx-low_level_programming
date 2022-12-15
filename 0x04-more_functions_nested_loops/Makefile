@@ -1,4 +1,4 @@
-SRC:= main.c
+SRC:= 9-fizz_buzz.c
 CC:= gcc
 CFLAGS:= -Wall -Werror -Wextra -pedantic -std=gnu89
 
