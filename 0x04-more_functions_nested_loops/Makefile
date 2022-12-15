@@ -1,4 +1,4 @@
-SRC:= main.c _putchar.c 5-more_numbers.c
+SRC:= main.c _putchar.c 4-print_most_numbers.c
 CC:= gcc
 CFLAGS:= -Wall -Werror -Wextra -pedantic -std=gnu89
 
