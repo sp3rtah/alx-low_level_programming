@@ -18,5 +18,6 @@ void print_line(int);
 void print_diagonal(int);
 void print_square(int size);
 void print_triangle(int);
+void print_number(int n);
 
 #endif /* MAIN_H */
