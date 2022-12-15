@@ -1,6 +1,6 @@
-SRC:= 0-main.c
+SRC:= 2-main.c
 CC:= gcc
-CFLAGS:= -Wall -Werror -Wextra -pedantic -std=gnu89 0-positive_or_negative.c
+CFLAGS:= -Wall -Werror -Wextra -pedantic -std=gnu89 2-largest_number.c
 
 run: compile
 	./a.out
