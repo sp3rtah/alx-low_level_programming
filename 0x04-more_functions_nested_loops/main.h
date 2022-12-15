@@ -9,5 +9,6 @@ int convert_day(int, int);
 void print_remaining_days(int, int, int);
 int _isupper(int);
 int _isdigit(int);
+int mul(int,int);
 
 #endif /* MAIN_H */

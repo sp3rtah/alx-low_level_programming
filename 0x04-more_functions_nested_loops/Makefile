@@ -1,6 +1,6 @@
 SRC:= main.c
 CC:= gcc
-CFLAGS:= -Wall -Werror -Wextra -pedantic -std=gnu89 _putchar.c 0-isupper.c
+CFLAGS:= -Wall -Werror -Wextra -pedantic -std=gnu89 _putchar.c 2-mul.c
 
 run: compile
 	./a.out
