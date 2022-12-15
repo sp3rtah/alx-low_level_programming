@@ -1,4 +1,4 @@
-SRC:= main.c _putchar.c 8-print_square.c
+SRC:= main.c
 CC:= gcc
 CFLAGS:= -Wall -Werror -Wextra -pedantic -std=gnu89
 
