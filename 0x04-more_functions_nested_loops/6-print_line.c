@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_line - prints 10 times the numbers, from 0 to 14
+ * print_line - draws a straight line in the terminal.
  * @n: int
  */
 void print_line(int n)
